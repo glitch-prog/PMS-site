@@ -14,10 +14,10 @@
     />
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="container">
         <div class="logotype">
-          <a href=""><img src="./assets/img/Group 2.png" alt="" /></a>
+          <a href=""><img src="./assets/img/Group 2.png" alt="logotype" /></a>
         </div>
 
         <div class="header__menu">
@@ -33,10 +33,14 @@
     </header>
 
     <main>
+      <a href="#header" class="up">
+        <img src="./assets/img/up.png" alt="up"
+      /></a>
+
       <section class="history" id="hist">
         <div class="container">
           <h3>Гісторыя</h3>
-          <img src="" alt="image" />
+          <img class="back" src="./assets/img/History.png" alt="image" />
           <p>
             Наша навучальная ўстанова мае доўгую і яркую гісторыю. 2 ліпеня 1960
             г. на падставе пастановы Савета Міністраў БССР № 383 быў створаны
@@ -54,10 +58,10 @@
         </div>
       </section>
 
-      <section class="about__specialisation" id="about">
+      <section class="about__specialization" id="about">
         <div class="container">
           <h3>Аб спецыяльнасці</h3>
-          <img src="" alt="image" />
+          <img class="back" src="./assets/img/About.png" alt="image" />
           <p>
             Прыём навучэнцаў вырабляецца з ліку выпускнікоў базавых школ (9
             класаў). Тэрмін навучання: 3 гады 10 месяцаў (з набору 2018 г. - 3
@@ -81,7 +85,7 @@
       <section class="program" id="prog">
         <div class="container">
           <h3>Праграма</h3>
-          <img src="" alt="image" />
+          <img src="./assets/img/Program.png" alt="image" />
           <p>
             Навучэнцы спецыяльнасці «Праграмуемыя мабільныя сістэмы» атрымаюць
             веды па асновам алгарытмізацыі і праграмаванні; тэхналогіі
@@ -146,6 +150,32 @@
         </div>
       </section>
 
+      <section class="contacts" id="cont">
+        <div class="container">
+          <h3>Кантакты</h3>
+          <div class="contacts__block">
+            <div class="text">
+              <p>Старшыня цыклавой камісіі</p>
+              <p>Аўхімавіч Ірына Васільеўна</p>
+
+              <p>"Праграмуемыя мабільныя сістэмы"</p>
+              <p>Тел. +37529 349-52-47</p>
+              <p>e-mail: ck_pms@mrk-bsuir.by</p>
+              <p></p>
+            </div>
+            <img src="./assets/img/contact__1.png" alt="" />
+          </div>
+          <div class="contacts__block">
+            <img src="./assets/img/contact__2.png" alt="" />
+            <div class="text">
+              <p>Навуменка Жанна Мікалаеўна</p>
+              <p>тел. 292-17-44</p>
+              <p>e-mail: zam-po@mrk-bsuir.by</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="location" id="loc">
         <div class="container">
           <h3>Месцазнаходжанне</h3>
@@ -157,12 +187,16 @@
             allowfullscreen=""
             loading="lazy"
           ></iframe>
-          <p></p>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <p>Дадзены сайт выкананы навучэнцамі 3 курса групы 9К9291</p>
+        <p>Дуброўкай Ягорам Андрэевічам і Мараевай Міланай Дзмітрыеўнай</p>
+      </div>
+    </footer>
     <script src="./src/cooks.js"></script>
   </body>
 </html>
